@@ -29,6 +29,29 @@ body{
 
 }
 
+.img-thumbnail-home{
+    height: auto;
+    padding: 2.5px;
+    text-align: center;
+    margin:auto;
+    display: block;
+
+}
+
+.img-thumbnail-highlighted{
+    height: 150px;
+    width: 200px;
+    padding: 2.5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+    border:2px;
+    border-color: teal;
+    border-style: solid;
+
+}
+
 .img-fluid{
     height: auto;
     display: block;
