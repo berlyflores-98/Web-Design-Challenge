@@ -48,17 +48,31 @@
     </div>
   </nav>
 
-  <div class="container bg-white">
+
+
+  <div class="container col-xl-10 bg-white">
     <h3 class="section-head" >Visualizations</h3>
     <hr class="my-4">
     <h7>Click any plot to get an in-depth analysis</h7>
     <div class="row bg-white">
-        <a href="weather_max_temp.html"><img src="Resources/assets/images/Lat_vs_Max_Temp.png" href="weather_max_temp.html" alt="Lateral vs Max Temp plot" class="img-fluid"></a>
-        <a href="weather_cloudiness.html"><img src="Resources/assets/images/Lat_vs_Cloudiness.png" alt="Lateral vs Cloudiness plot" class="img-fluid"></a>
+        <div class="container col-md-5 bg-white">
+        <p class="p">vs Max Temperature</p>
+        <a href="weather_max_temp.html"><img src="Resources/assets/images/Lat_vs_Max_Temp.png" href="weather_max_temp.html" alt="Lateral vs Max Temp plot" style="max-width:100%;text-align:center;" class="img-fluid"></a>
       </div>
+      <div class="container col-md-5 bg-white">
+        <p class="p">vs Cloudiness</p>
+        <a href="weather_cloudiness.html"><img src="Resources/assets/images/Lat_vs_Cloudiness.png" alt="Lateral vs Cloudiness plot" style="max-width:200%;" class="img-fluid"></a>
+      </div>
+    </div>
       <div class="row bg-white">
+        <div class="container col-md-5 bg-white">
+          <p class="p">vs Humidity</p>
         <a href="weather_humidity.html"><img src="Resources/assets/images/Lat_vs_Humidity.png" alt="Lateral vs Humidity plot" class="img-fluid"></a>
+        </div>
+        <div class="container col-md-5 bg-white">
+          <p class="p">vs Wind Speed</p>
         <a href="weather_wind_speed.html"><img src="Resources/assets/images/Lat_vs_Wind_Speed.png" alt="Lateral vs Wind Speed plot" class="img-fluid"></a>
+        </div>
       </div>
     </div>
 

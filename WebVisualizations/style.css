@@ -18,6 +18,14 @@ body{
     
 }
 
+.p{
+    color: teal;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    position: relative;
+}
+
 .img-thumbnail{
     height: 150px;
     width: 200px;
@@ -61,5 +69,7 @@ body{
     margin-right: 30px;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-align: center;
+    position: relative;
 
 }
