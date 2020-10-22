@@ -18,6 +18,19 @@ body{
     
 }
 
+.navbar-brand{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    background-color: teal;
+    padding: 10px;
+    border: 10px;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
 .p{
     color: teal;
     font-weight: bold;
